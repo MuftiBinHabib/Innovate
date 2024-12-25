@@ -1,0 +1,29 @@
+.container{
+    max-width: 1170px;
+}
+
+$primary: "#1BBF00";
+
+$secondary: "#6001D3";
+
+$light: #6B62C5;
+
+$f1 :"Open Sans", serif;
+$f2 : "Paprika", serif;
+
+a{
+    text-decoration: none;
+}
+
+@mixin button($theme: #1BBF00) {
+    background: $theme;
+    font-size: 18px;
+    border: none;
+    line-height: 200%;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 14px 28px;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+  }

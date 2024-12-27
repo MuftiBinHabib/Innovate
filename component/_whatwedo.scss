@@ -1,0 +1,25 @@
+#whatwedo{
+    .cardserv{
+        width: 370px;
+        button{
+            width: 108px;
+            height: 40px;
+            color: #141135;
+            border-radius: 20px;
+            position: relative;
+            border: none;
+        }
+
+        &::after{
+            position: absolute;
+            content: "";
+            background: rgba(27, 191, 0, 0.3);
+            width: 27px;
+            height: 40px;
+            
+            right: 245px;
+            top: 480px;
+            border-radius: 0 100px 100px 0;
+        }
+    }
+}

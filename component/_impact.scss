@@ -1,0 +1,17 @@
+#impact{
+    max-width: 2026px;
+    height: 878px;
+    position: relative;
+    .impacthead{
+        text-align: center;
+    }
+    .impactleft{
+        display: flex;
+        gap: 10px;
+    }
+    .impactshape{
+        position: absolute;
+        bottom: 0;
+right: 0;
+    }
+}

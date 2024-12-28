@@ -1,5 +1,30 @@
 #plan{
    .planhead{
     text-align: center;
+    h2{
+      font-family: $f1;
+      font-weight: 700;
+      font-size: 48px;
+    }
+   
    }
+   h5{
+      font-family: $f1;
+      font-weight: 700;
+      font-size: 30px;
+    }
+    ul{
+      list-style: none;
+    }
+    .cardb{
+      border-radius: 20px;
+      &:hover{
+         background-color: #6B62C5;
+         .imageclass{
+            background-color: #8981D1;
+         }
+
+    }
+   
+    }
 }

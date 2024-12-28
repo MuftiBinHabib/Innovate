@@ -105,9 +105,9 @@ header nav button {
 #test {
   padding: 10px;
   width: 100%;
-  height: 500px;
   background: #F9F9FB;
   position: relative;
+  padding-bottom: 282px;
 }
 #test .testimg {
   position: absolute;
@@ -140,35 +140,143 @@ header nav button {
   width: 2px;
   position: absolute;
   background-color: #4F585F;
-  right: 0;
-  top: 0;
+  right: 40px;
+  top: 10px;
 }
 #test .testbar2 {
   height: 132px;
   width: 2px;
   position: absolute;
   background-color: #4F585F;
-  right: 10px;
-  top: 0;
+  right: 700px;
+  top: 300px;
 }
 #test .testbar3 {
   height: 132px;
   width: 2px;
   position: absolute;
   background-color: #4F585F;
-  right: 500px;
+  right: 428px;
   top: 300px;
 }
 
-#choose .chooserow {
+#choose {
   position: relative;
+}
+#choose .mainoptions {
+  position: absolute;
+  top: 121px;
+  left: 239px;
+  width: 1122px;
+  gap: 100px;
+}
+#choose .rightpartcol {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 #choose ul {
   list-style: none;
 }
+#choose ul li {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  font-family: "Paprika", serif;
+  gap: 20px;
+}
+#choose ul .one:hover {
+  padding-top: 72px;
+  width: 568px;
+  height: 144px;
+  border-radius: 12px;
+  box-shadow: 10px 10px 36px -6px rgba(0, 0, 0, 0.75);
+}
+#choose h2 {
+  font-family: "Open Sans", serif;
+  font-size: 48px;
+  font-weight: 700;
+  width: 365px;
+}
+#choose .rightpara {
+  font-family: "Paprika", serif;
+  padding-top: 9px;
+  width: 393px;
+}
+#choose button {
+  background: #1BBF00;
+  font-size: 18px;
+  border: none;
+  line-height: 200%;
+  border-radius: 100px;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding: 14px 28px;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+  margin-top: 41px;
+}
 
+#whatwedo {
+  margin-top: 300px;
+}
+#whatwedo h2 {
+  font-family: "Open Sans", serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+#whatwedo p {
+  font-family: "Open Sans", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+#whatwedo .whatwedobutton {
+  background: #1BBF00;
+  font-size: 18px;
+  border: none;
+  line-height: 200%;
+  border-radius: 100px;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding: 14px 28px;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+}
 #whatwedo .cardserv {
   width: 370px;
+  border-radius: 20px;
+}
+#whatwedo .cardserv:hover {
+  background-color: #6B62C5;
+  color: white;
+}
+#whatwedo .cardserv:hover button {
+  color: white;
+  background-color: #6B62C5;
+}
+#whatwedo .cardserv:hover::after {
+  background-color: #9791D6;
+  opacity: 0.5;
+}
+#whatwedo .cardserv .cardbody {
+  text-align: center;
+}
+#whatwedo .cardserv .wdimg {
+  scale: 0.4;
+  padding-top: 48px;
+  padding-left: 154px;
+}
+#whatwedo .cardserv h3 {
+  font-family: "Open Sans", serif;
+  font-weight: 700;
+  font-size: 30px;
+  width: 373px;
+}
+#whatwedo .cardserv p {
+  font-family: "Paprika", serif;
+  font-size: 18px;
+  font-weight: 400;
+  width: 312px;
+  padding-left: 50px;
 }
 #whatwedo .cardserv button {
   width: 108px;
@@ -184,22 +292,47 @@ header nav button {
   background: rgba(27, 191, 0, 0.3);
   width: 27px;
   height: 40px;
-  right: 245px;
-  top: 480px;
+  right: 130px;
+  top: 419px;
   border-radius: 0 100px 100px 0;
 }
 
 #impact {
   max-width: 2026px;
-  height: 878px;
+  margin-top: 109px;
+  height: 1078px;
   position: relative;
 }
 #impact .impacthead {
   text-align: center;
 }
+#impact .impacthead h2 {
+  font-family: "Open Sans", serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+#impact .impacthead p {
+  font-family: "Paprika", serif;
+  width: 558px;
+  margin-top: 23px;
+  margin-left: 270px;
+}
+#impact .impactrow {
+  margin-top: 75px;
+}
 #impact .impactleft {
   display: flex;
   gap: 10px;
+}
+#impact .impactleft h3 {
+  font-family: "Open Sans", serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+#impact .impactleftpara {
+  font-family: "Paprika", serif;
+  width: 365px;
+  padding-left: 73px;
 }
 #impact .impactshape {
   position: absolute;
@@ -209,6 +342,28 @@ header nav button {
 
 #plan .planhead {
   text-align: center;
+}
+#plan .planhead h2 {
+  font-family: "Open Sans", serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+#plan h5 {
+  font-family: "Open Sans", serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+#plan ul {
+  list-style: none;
+}
+#plan .cardb {
+  border-radius: 20px;
+}
+#plan .cardb:hover {
+  background-color: #6B62C5;
+}
+#plan .cardb:hover .imageclass {
+  background-color: #8981D1;
 }
 
 #whatthepeople h2 {
@@ -246,11 +401,28 @@ header nav button {
 }
 
 footer {
+  font-family: "Nunito", serif;
+  color: white;
   width: auto;
   background-color: #48409C;
   padding-top: 100px;
 }
+footer p {
+  width: 449px;
+  padding-top: 44px;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  margin-top: 20px;
+}
 
 #footerattributes {
+  padding-top: 80px;
   background-color: #48409C;
+  font-family: "Nunito", serif;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */

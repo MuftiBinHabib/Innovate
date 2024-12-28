@@ -1,6 +1,57 @@
 #whatwedo{
+    margin-top: 300px;
+    h2{
+        font-family: $f1;
+        font-weight: 700;
+        font-size: 48px;
+    }
+    p{
+        font-family: $f1;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .whatwedobutton{
+        @include button()
+    }
     .cardserv{
         width: 370px;
+        border-radius: 20px;
+        &:hover{
+            background-color: #6B62C5;
+            color: white;
+            button{
+                color: white;
+                background-color: #6B62C5;
+            }
+            &::after{
+                background-color: #9791D6;
+                opacity: 0.5;
+            }
+        }
+        .cardbody{
+            text-align: center;
+        }
+        .wdimg{
+            
+            scale: 0.4;
+            padding-top: 48px;
+            padding-left: 154px;
+        }
+        h3{
+            
+            font-family: $f1;
+            font-weight: 700;
+            font-size: 30px;
+            
+            width: 373px;
+        }
+        p{
+            font-family: $f2;
+    font-size: 18px;
+    font-weight: 400;
+    width: 312px;
+    padding-left: 50px;
+        }
         button{
             width: 108px;
             height: 40px;
@@ -12,14 +63,13 @@
 
         &::after{
             position: absolute;
-            content: "";
-            background: rgba(27, 191, 0, 0.3);
-            width: 27px;
-            height: 40px;
-            
-            right: 245px;
-            top: 480px;
-            border-radius: 0 100px 100px 0;
+    content: "";
+    background: rgba(27, 191, 0, 0.3);
+    width: 27px;
+    height: 40px;
+    right: 130px;
+    top: 419px;
+    border-radius: 0 100px 100px 0;
         }
     }
 }

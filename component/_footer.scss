@@ -1,5 +1,19 @@
 footer{
+    p{
+        width: 449px;
+        padding-top: 44px;
+    }
+    font-family: "Nunito", serif;
+    color: white;
     width: auto;
     background-color: #48409C;
     padding-top: 100px;
+    ul{
+        list-style: none;
+
+        li{
+            margin-top: 20px;
+        }
+    }
+
 }

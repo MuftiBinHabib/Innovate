@@ -1,12 +1,53 @@
 #choose{
+    position: relative;
+    
 
-    .chooserow{
-        position: relative;
-        
+    .mainoptions{
+        position: absolute;
+        top: 121px;
+        left: 239px;
+        width: 1122px;
+        gap: 100px;
     }
+    .rightpartcol{
+        width: fit-content;
+    }
+    
     ul{
         list-style: none;
+        li{
+            width: fit-content;
+            display: flex;
+            font-family: $f2;
+            gap: 20px;
+        }
+
+        .one:hover{
+            padding-top: 72px;
+            width: 568px;
+            height: 144px;
+            border-radius: 12px;
+            box-shadow: 10px 10px 36px -6px rgba(0,0,0,0.75);
+        }
        
       
+    }
+    h2{
+        font-family: $f1;
+        font-size: 48px;
+        font-weight: 700;
+        width: 365px;
+    }
+    .rightpara{
+        font-family: $f2;
+        padding-top: 9px;
+        width: 393px
+        
+    }
+
+    button{
+        @include button();
+        margin-top: 41px;
+        
     }
 }

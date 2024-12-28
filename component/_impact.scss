@@ -1,13 +1,43 @@
 #impact{
     max-width: 2026px;
-    height: 878px;
+    margin-top: 109px;
+    height: 1078px;
     position: relative;
     .impacthead{
         text-align: center;
+        h2{
+            font-family: $f1;
+            font-size: 48px;
+            font-weight: 700;
+        }
+        p{
+            font-family: $f2;
+            width: 558px;
+            margin-top: 23px;
+          margin-left: 270px;
+        }
+    }
+    .impactrow{
+        margin-top: 75px;
     }
     .impactleft{
         display: flex;
         gap: 10px;
+        h3{
+            font-family: $f1;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        
+            
+
+        
+        
+    }
+    .impactleftpara{
+        font-family: "Paprika", serif;
+    width: 365px;
+    padding-left: 73px;
     }
     .impactshape{
         position: absolute;

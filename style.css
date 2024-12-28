@@ -205,4 +205,52 @@ header nav button {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+#plan .planhead {
+  text-align: center;
+}
+
+#whatthepeople h2 {
+  text-align: center;
+}
+
+#youmaylike {
+  margin-top: 100px;
+}
+#youmaylike h2 {
+  text-align: left;
+}
+#youmaylike .likecards {
+  display: flex;
+}
+#youmaylike .leftpart ul {
+  list-style: none;
+}
+#youmaylike .leftpart ul li {
+  background-color: #C4C4C4;
+  height: 100px;
+  width: 100px;
+}
+#youmaylike .rightpart ul {
+  display: flex;
+  list-style: none;
+  padding-left: 546px;
+}
+#youmaylike .rightpart h2 {
+  width: 504px;
+  margin-left: 546px;
+}
+#youmaylike .rightpart button {
+  margin-left: 546px;
+}
+
+footer {
+  width: auto;
+  background-color: #48409C;
+  padding-top: 100px;
+}
+
+#footerattributes {
+  background-color: #48409C;
 }/*# sourceMappingURL=style.css.map */

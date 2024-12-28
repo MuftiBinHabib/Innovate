@@ -1,0 +1,36 @@
+#youmaylike{
+    margin-top: 100px;
+    h2{
+        text-align: left;
+    }
+    .likecards{
+        display: flex;
+    }
+    .leftpart{
+        ul{
+            list-style: none;
+            li{
+                background-color: #C4C4C4;
+                height: 100px;
+                width: 100px
+
+            }
+        }
+    }
+
+    .rightpart{
+        
+        ul{
+            display: flex;
+            list-style: none;
+            padding-left: 546px;
+        }
+        h2{
+            width: 504px;
+            margin-left: 546px;
+        }
+        button{
+            margin-left: 546px;
+        }
+    }
+}

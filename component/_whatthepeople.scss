@@ -10,7 +10,73 @@
 
     img{
         scale: 0.5;
+        padding-left: 580px;
     }
+    .stars{
+        color: #FF7628;
+        padding-left: 522px;
+        margin-top: -72px;
+        display: flex;
+        gap: 6px;
+
+    }
+
+    .previousbutton{
+        margin-right: 106px;
+        background-color: green;
+        height: 64px;
+        width: 64px;
+        border-radius: 50%;
+        
+        .leftarrow{
+            padding-top: 16px;
+            scale: 2;
+        }
+    }
+    p{
+        width: 800px;
+        font-family: $f2;
+        font-weight: 400;
+        font-size: 24px;
+        padding-top: 33px;
+        margin-left: 181px;
+    }
+    .boxslide{
+        margin-top: 100px;
+        margin-left: 70px;
+        width: 1006px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px 4px rgba(0,0,0,0.75);
+        h2{
+            font-weight: 700;
+            font-size: 25px;
+            font-family: $f1;
+            padding-left: 17%;
+        }
+        h3{
+            font-weight: 400;
+            font-size: 16px;
+            font-family: $f2;
+            padding-left: 50%;
+            padding-bottom: 56px;
+        }
+    }
+    
+
+    .nextbutton{
+        margin-left: 106px;
+        background-color: green;
+        height: 64px;
+        width: 64px;
+        border-radius: 50%;
+        
+        .rightarrow{
+            padding-top: 16px;
+            scale: 2;
+        }
+    }
+
+
         
     
 }

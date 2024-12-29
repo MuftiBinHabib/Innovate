@@ -259,6 +259,7 @@ header nav button {
 }
 #whatwedo .cardserv .cardbody {
   text-align: center;
+  margin-top: -111px;
 }
 #whatwedo .cardserv .wdimg {
   scale: 0.2;
@@ -292,7 +293,7 @@ header nav button {
   width: 27px;
   height: 40px;
   right: 130px;
-  top: 526px;
+  top: 415px;
   border-radius: 0 100px 100px 0;
 }
 
@@ -377,8 +378,9 @@ header nav button {
 #plan .cardb:hover {
   background-color: #6B62C5;
 }
-#plan .cardb:hover .imagedclass {
-  width: 370px;
+#plan .cardb:hover .imageclass {
+  margin-left: -17px;
+  width: 366px;
   margin-right: 10px;
   background-color: #8981D1;
 }
@@ -393,6 +395,64 @@ header nav button {
 }
 #whatthepeople img {
   scale: 0.5;
+  padding-left: 580px;
+}
+#whatthepeople .stars {
+  color: #FF7628;
+  padding-left: 522px;
+  margin-top: -72px;
+  display: flex;
+  gap: 6px;
+}
+#whatthepeople .previousbutton {
+  margin-right: 106px;
+  background-color: green;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+}
+#whatthepeople .previousbutton .leftarrow {
+  padding-top: 16px;
+  scale: 2;
+}
+#whatthepeople p {
+  width: 800px;
+  font-family: "Paprika", serif;
+  font-weight: 400;
+  font-size: 24px;
+  padding-top: 33px;
+  margin-left: 181px;
+}
+#whatthepeople .boxslide {
+  margin-top: 100px;
+  margin-left: 70px;
+  width: 1006px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px 4px rgba(0, 0, 0, 0.75);
+}
+#whatthepeople .boxslide h2 {
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Open Sans", serif;
+  padding-left: 17%;
+}
+#whatthepeople .boxslide h3 {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Paprika", serif;
+  padding-left: 50%;
+  padding-bottom: 56px;
+}
+#whatthepeople .nextbutton {
+  margin-left: 106px;
+  background-color: green;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+}
+#whatthepeople .nextbutton .rightarrow {
+  padding-top: 16px;
+  scale: 2;
 }
 
 #youmaylike {

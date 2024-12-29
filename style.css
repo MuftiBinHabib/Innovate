@@ -261,9 +261,8 @@ header nav button {
   text-align: center;
 }
 #whatwedo .cardserv .wdimg {
-  scale: 0.4;
-  padding-top: 48px;
-  padding-left: 154px;
+  scale: 0.2;
+  align-items: center;
 }
 #whatwedo .cardserv h3 {
   font-family: "Open Sans", serif;
@@ -293,7 +292,7 @@ header nav button {
   width: 27px;
   height: 40px;
   right: 130px;
-  top: 419px;
+  top: 526px;
   border-radius: 0 100px 100px 0;
 }
 
@@ -322,7 +321,7 @@ header nav button {
 }
 #impact .impactleft {
   display: flex;
-  gap: 10px;
+  gap: 35px;
 }
 #impact .impactleft h3 {
   font-family: "Open Sans", serif;
@@ -332,7 +331,7 @@ header nav button {
 #impact .impactleftpara {
   font-family: "Paprika", serif;
   width: 365px;
-  padding-left: 73px;
+  padding-left: 103px;
 }
 #impact .impactshape {
   position: absolute;
@@ -348,26 +347,52 @@ header nav button {
   font-weight: 700;
   font-size: 48px;
 }
+#plan h3 {
+  text-align: center;
+  color: #1BBF00;
+  font-size: 48px;
+  font-weight: 800;
+}
+#plan h3 sup {
+  font-weight: 700;
+}
 #plan h5 {
   font-family: "Open Sans", serif;
   font-weight: 700;
   font-size: 30px;
+  text-align: center;
 }
 #plan ul {
   list-style: none;
+  font-family: "Paprika", serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
 }
 #plan .cardb {
+  margin-top: 64px;
   border-radius: 20px;
+  position: relative;
 }
 #plan .cardb:hover {
   background-color: #6B62C5;
 }
-#plan .cardb:hover .imageclass {
+#plan .cardb:hover .imagedclass {
+  width: 370px;
+  margin-right: 10px;
   background-color: #8981D1;
 }
 
 #whatthepeople h2 {
   text-align: center;
+  margin-top: 100px;
+  font-family: "Open Sans", serif;
+  font-weight: 700;
+  color: #141135;
+  font-size: 48px;
+}
+#whatthepeople img {
+  scale: 0.5;
 }
 
 #youmaylike {
@@ -375,29 +400,114 @@ header nav button {
 }
 #youmaylike h2 {
   text-align: left;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
 }
 #youmaylike .likecards {
   display: flex;
 }
 #youmaylike .leftpart ul {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
 #youmaylike .leftpart ul li {
   background-color: #C4C4C4;
-  height: 100px;
-  width: 100px;
+  height: 220px;
+  width: 379px;
+  border-radius: 15px;
+  background-color: #C4C4C4;
+}
+#youmaylike .rightpart {
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
 }
 #youmaylike .rightpart ul {
   display: flex;
   list-style: none;
-  padding-left: 546px;
+  padding-left: 130px;
+  gap: 20px;
 }
-#youmaylike .rightpart h2 {
+#youmaylike .rightpart ul li:hover {
+  color: #1BBF00;
+}
+#youmaylike .rightpart h3 {
   width: 504px;
-  margin-left: 546px;
+  margin-left: 130px;
+  margin-top: 16px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  color: #141135;
+  font-size: 30px;
 }
 #youmaylike .rightpart button {
-  margin-left: 546px;
+  margin-left: 130px;
+  margin-top: 16px;
+  width: 108px;
+  height: 40px;
+  color: #141135;
+  border-radius: 20px;
+  border: none;
+}
+#youmaylike .rightpart::after {
+  position: absolute;
+  content: "";
+  background: rgba(27, 191, 0, 0.3);
+  width: 27px;
+  height: 40px;
+  right: 396px;
+  top: 173px;
+  border-radius: 0 100px 100px 0;
+}
+#youmaylike .secondpart {
+  margin-top: 60px;
+  position: relative;
+}
+#youmaylike .secondpart .button2 {
+  margin-left: 130px;
+  margin-top: 16px;
+  width: 108px;
+  height: 40px;
+  color: #141135;
+  border-radius: 20px;
+  border: none;
+}
+#youmaylike .secondpart::after {
+  position: absolute;
+  content: "";
+  background: rgba(27, 191, 0, 0.3);
+  width: 27px;
+  height: 40px;
+  right: 396px;
+  top: 173px;
+  border-radius: 0 100px 100px 0;
+}
+#youmaylike .thirdpart {
+  margin-top: 60px;
+  position: relative;
+}
+#youmaylike .button3 {
+  margin-left: 130px;
+  margin-top: 16px;
+  width: 108px;
+  height: 40px;
+  color: #141135;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  border: none;
+}
+#youmaylike .button3::after {
+  position: absolute;
+  content: "";
+  background: rgba(27, 191, 0, 0.3);
+  width: 27px;
+  height: 40px;
+  right: 396px;
+  top: 173px;
+  border-radius: 0 100px 100px 0;
 }
 
 footer {

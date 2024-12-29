@@ -6,21 +6,45 @@
       font-weight: 700;
       font-size: 48px;
     }
+ 
+    
+    
    
+   }
+   h3{
+    text-align: center;
+    color: #1BBF00;
+    font-size: 48px;
+    font-weight: 800;
+    sup{
+      font-weight: 700;
+    }
    }
    h5{
       font-family: $f1;
       font-weight: 700;
       font-size: 30px;
+      text-align: center;
     }
     ul{
       list-style: none;
+      font-family: $f2;
+      font-weight: 400;
+      font-size: 18px;
+      text-align: center;
     }
     .cardb{
+      margin-top: 64px;
       border-radius: 20px;
+      position: relative;
       &:hover{
+        
          background-color: #6B62C5;
-         .imageclass{
+         .imagedclass{
+          
+          
+          width: 370px;
+          margin-right: 10px;
             background-color: #8981D1;
          }
 

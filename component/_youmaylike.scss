@@ -2,6 +2,9 @@
     margin-top: 100px;
     h2{
         text-align: left;
+        font-size: 50px;
+        font-weight: 700;
+        font-family: $f1;
     }
     .likecards{
         display: flex;
@@ -9,10 +12,15 @@
     .leftpart{
         ul{
             list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
             li{
                 background-color: #C4C4C4;
-                height: 100px;
-                width: 100px
+                height: 220px;
+                width: 379px;
+                border-radius: 15px;
+                background-color: #C4C4C4;
 
             }
         }
@@ -20,17 +28,107 @@
 
     .rightpart{
         
+        width: fit-content;
+        position: relative;
+        
+        
         ul{
             display: flex;
             list-style: none;
-            padding-left: 546px;
+            padding-left: 130px;
+            gap: 20px;
+            li:hover{
+                color: #1BBF00;
+            }
         }
-        h2{
+        h3{
             width: 504px;
-            margin-left: 546px;
+            margin-left: 130px;
+            margin-top: 16px;
+            font-weight: 700;
+            font-family: $f1;
+            color: #141135;
+            font-size: 30px;
         }
         button{
-            margin-left: 546px;
+            margin-left: 130px;
+            margin-top: 16px;
+            width: 108px;
+            height: 40px;
+            color: #141135;
+            border-radius: 20px;
+            
+            border: none;
+
+        }
+
+        &::after{
+            position: absolute;
+    content: "";
+    background: rgba(27, 191, 0, 0.3);
+    width: 27px;
+    height: 40px;
+    right: 396px;
+    top: 173px;
+    border-radius: 0 100px 100px 0;
         }
     }
+
+    .secondpart{
+        margin-top: 60px;
+        position: relative;
+
+    .button2{
+        margin-left: 130px;
+        margin-top: 16px;
+        width: 108px;
+        height: 40px;
+        color: #141135;
+        border-radius: 20px;
+        
+        border: none;
+
+    }
+
+    &::after{
+        position: absolute;
+content: "";
+background: rgba(27, 191, 0, 0.3);
+width: 27px;
+height: 40px;
+right: 396px;
+top: 173px;
+border-radius: 0 100px 100px 0;
+    }
+    }
+    .thirdpart{
+        margin-top: 60px;
+        position: relative;
+    }
+
+    .button3{
+        margin-left: 130px;
+        margin-top: 16px;
+        width: 108px;
+        height: 40px;
+        color: #141135;
+        border-radius: 20px;
+        margin-bottom: 100px;
+        
+        border: none;
+
+        &::after{
+            position: absolute;
+    content: "";
+    background: rgba(27, 191, 0, 0.3);
+    width: 27px;
+    height: 40px;
+    right: 396px;
+    top: 173px;
+    border-radius: 0 100px 100px 0;
+        }
+
+    }
+
+   
 }

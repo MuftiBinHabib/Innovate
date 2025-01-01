@@ -1,0 +1,116 @@
+@media (min-width:320px) and (max-width: 575px){
+    #banner .overlay h1 {
+        font-weight: 700;
+        font-size: 45px;
+        color: #FAFAFE;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    /* Testimonial */
+    #test .testbar {
+        display: none;
+    }
+
+    /* Choose */
+    .chooseimg{
+        width: 100%;
+    }
+
+    #choose ul{
+        width: fit-content;
+    }
+
+    #choose .mainoptions {
+        position: absolute;
+        top: 121px;
+        left: 1px;
+        width: 100%;
+        gap: 100px;
+    }
+
+    #choose h2 {
+        font-family: "Open Sans", serif;
+        font-size: 48px;
+        font-weight: 700;
+        width: 100%;
+    }
+
+    #choose .rightpara {
+        font-family: "Paprika", serif;
+        padding-top: 9px;
+        width: 100%;
+    }
+
+    /* What we do */
+    #whatwedo {
+        margin-top: 744px;
+    }
+
+    #whatwedo .cardserv {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    #whatwedo .cardserv h3 {
+        font-family: "Open Sans", serif;
+        font-weight: 700;
+        font-size: 30px;
+        width: 100%;
+    }
+
+    #whatwedo .cardserv p {
+        font-family: "Paprika", serif;
+        font-size: 18px;
+        font-weight: 400;
+        width: 100%;
+        padding-left: 50px;
+    }
+
+    /* Impact */
+    #impact .impacthead p {
+        font-family: "Paprika", serif;
+        width: 100%;
+        margin-top: 23px;
+       margin-left: 0;
+    }
+
+    #impact .impactshape {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    #impact .impactleftpara {
+        font-family: "Paprika", serif;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    #impact .impactimgcomp{
+        width: 100%;
+    }
+
+    /* Plan */
+    #plan .cardb:hover .imageclass {
+        margin-left: -17px;
+        width: 100%;
+        margin-right: 10px;
+        background-color: #8981D1;
+    }
+
+    #plan .cardb .imageclass {
+        margin-left: -17px;
+        width: 100%;
+        margin-right: 10px;
+        
+    }
+
+    /* Footer */
+
+    footer p {
+        width: 100%;
+        padding-top: 44px;
+    }
+
+}

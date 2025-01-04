@@ -105,6 +105,106 @@
         margin-right: 10px;
         
     }
+    /* What the people thinks */
+    /* #whatthepeople{
+        display: none;
+    } */
+
+    #whatthepeople .slidebig{
+        scale: 0.4;
+    }
+
+    /* #whatthepeople .previousbutton{
+        margin-right: 0px;
+        
+        height: 64px;
+        width: 64px;
+        border-radius: 50%; */
+
+
+    /* You may also like */
+    #youmaylike .likecards {
+        flex-direction: column;
+    }
+
+    #youmaylike .rightpart ul {
+        
+        padding-left: 0px;
+      
+    }
+
+    #youmaylike .rightpart h3 {
+        width: auto;
+        margin-left: 0px;
+        margin-top: 16px;
+        font-weight: 600;
+        
+        font-size: 27px;
+    }
+
+    #youmaylike .rightpart button {
+        margin-left: 70px;
+        margin-top: 16px;
+        
+        color: #141135;
+       
+    }
+
+    #youmaylike .rightpart .button2 {
+        margin-left: 70px;
+        margin-top: 16px;
+        
+       
+       
+    }
+
+    #youmaylike .rightpart .button3 {
+        margin-left: 70px;
+        margin-top: 16px;
+        
+        
+       
+    }
+
+    #youmaylike .rightpart::after {
+        
+        
+        right: 40%;
+        top: 22%;
+        
+    }
+
+    #youmaylike .secondpart::after {
+        
+        
+        right: 40%;
+        top: 85%;
+        
+    }
+
+    #youmaylike .button3::after {
+        
+        
+        right: 40%;
+        top: 61%;
+        
+    }
+
+    #youmaylike .leftpart ul {
+        
+        display: flex ;
+        flex-direction: column;
+        gap: 60px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #youmaylike .leftpart ul li {
+        
+        width: auto;
+        
+    }
+    
 
     /* Footer */
 

@@ -111,7 +111,41 @@
     } */
 
     #whatthepeople .slidebig{
-        scale: 0.4;
+        scale: 0.7;
+        position: relative;
+    }
+
+    #whatthepeople .boxslide {
+        margin-top: 0;
+        margin-left: 0;
+        width: auto;
+    }
+
+    #whatthepeople p {
+        width: auto;
+        
+        font-weight: 300;
+        font-size: 19px;
+        padding-top: 33px;
+        margin-left: 43px;
+    }
+
+    #whatthepeople img {
+        scale: 1;
+        padding-left: 0;
+    }
+
+    #whatthepeople .stars {
+        
+        padding-left: 93px;
+        
+       
+    }
+
+    #whatthepeople .boxslide h3 {
+        
+        padding-left: 72px;
+        
     }
 
     /* #whatthepeople .previousbutton{
@@ -121,6 +155,38 @@
         width: 64px;
         border-radius: 50%; */
 
+        #whatthepeople .previousbutton {
+            
+            
+            height: 10px;
+            width: 10px;
+            
+            scale: 9;
+           
+        }
+
+        #whatthepeople .nextbutton {
+            
+            
+            height: 10px;
+            width: 10px;
+            
+            scale: 9;
+           
+        }
+
+        #whatthepeople .previousbutton .leftarrow {
+            
+            padding-top: 0;
+            scale: 0.5;
+            transform: translateY(-14px);
+        }
+
+        #whatthepeople .nextbutton .rightarrow {
+            margin-top: 0;
+            scale: 0.5;
+            transform: translateY(-30px);
+        }
 
     /* You may also like */
     #youmaylike .likecards {
@@ -213,4 +279,181 @@
         padding-top: 44px;
     }
 
+}
+
+@media (min-width:576px) and (max-width: 767px){
+
+    
+
+    /* Whatthepeople */
+
+    #whatthepeople .slidebig{
+        width: auto;
+    }
+
+    #whatthepeople p {
+        width: auto;
+       
+        margin-left: 0px;
+    }
+
+    #whatthepeople img {
+        scale: 0.5;
+        padding-left: 166px;
+    }
+
+    #whatthepeople .stars {
+        
+        padding-left: 193px;
+        
+    }
+
+    #whatthepeople .previousbutton {
+            
+            
+        height: 10px;
+        width: 10px;
+        
+        scale: 9;
+       
+    }
+
+    #whatthepeople .nextbutton {
+        
+        
+        height: 10px;
+        width: 10px;
+        
+        scale: 9;
+       
+    }
+
+    #whatthepeople .previousbutton .leftarrow {
+        
+        padding-top: 0;
+        font-size: 5px;
+        width: fit-content;
+        transform: translateY(-11px);
+    }
+
+    #whatthepeople .nextbutton .rightarrow {
+        margin-top: 0;
+        width: fit-content;
+        font-size: 4px;
+        transform: translateY(-23px);
+    }
+
+    #whatthepeople .boxslide {
+        
+        width: auto;
+        
+    }
+    /* Whatwedo */
+
+    #whatwedo h2 {
+        
+        width: auto;
+    }
+
+    /* Choose */
+
+    #choose .mainoptions {
+        
+        left: 0px;
+        width: auto;
+        
+    }
+
+    /* Impact */
+
+    #impact .impactimgcomp{
+        width: 100%;
+    }
+
+    #impact .impacthead p {
+        
+        width: auto;
+        
+        margin-left: 0;
+    }
+
+     /* You may also like */
+     #youmaylike .likecards {
+        flex-direction: column;
+    }
+
+    #youmaylike .rightpart ul {
+        
+        padding-left: 0px;
+      
+    }
+
+    #youmaylike .rightpart h3 {
+        width: auto;
+        margin-left: 0px;
+        margin-top: 16px;
+        font-weight: 600;
+        
+        font-size: 27px;
+    }
+
+    #youmaylike .rightpart button {
+        margin-left: 70px;
+        margin-top: 16px;
+        
+        color: #141135;
+       
+    }
+
+    #youmaylike .rightpart .button2 {
+        margin-left: 70px;
+        margin-top: 16px;
+        
+       
+       
+    }
+
+    #youmaylike .rightpart .button3 {
+        margin-left: 70px;
+        margin-top: 16px;
+        
+        
+       
+    }
+
+    #youmaylike .rightpart::after {
+        right: 67%;
+        top: 18%;
+    }
+
+    #youmaylike .secondpart::after {
+        
+        
+        right: 67%;
+        top: 78%;
+        
+    }
+
+    #youmaylike .button3::after {
+        
+        
+        right: 67%;
+        top: 49%;
+        
+    }
+
+    #youmaylike .leftpart ul {
+        
+        display: flex ;
+        flex-direction: column;
+        gap: 60px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #youmaylike .leftpart ul li {
+        
+        width: auto;
+        
+    }
 }

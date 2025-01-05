@@ -66,6 +66,13 @@
         padding-left: 50px;
     }
 
+    #whatwedo .cardserv::after {
+        
+        right: 102px;
+        top: 369px;
+        
+    }
+
     /* Impact */
     #impact .impacthead p {
         font-family: "Paprika", serif;
@@ -504,6 +511,27 @@
         
         margin-left: 0;
         width: auto;
+    }
+
+    #youmaylike .secondpart::after {
+        
+        right: 68%;
+        top: 78%;
+        
+    }
+
+    #youmaylike .button3::after {
+        
+        right: 68%;
+        top: 50%;
+        
+    }
+
+    #youmaylike .rightpart::after {
+        
+        right: 68%;
+        top: 18%;
+        
     }
 
     /* Impact */
